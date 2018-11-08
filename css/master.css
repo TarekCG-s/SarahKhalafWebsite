@@ -1,0 +1,135 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#section-1
+{
+    margin-top: 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: auto;
+    background: url(../resources/background5.jpg) center center fixed;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#section-2
+{
+  margin-top: 0px;
+  padding-bottom: 120px;
+  height: auto;
+  background: url(../resources/background.jpg) center center fixed;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#section-3
+{
+  height: auto;
+  padding-bottom: 120px;
+  background-color: #1F1F1F
+}
+#section-4
+{
+  padding-bottom: 120px;
+}
+
+#section-1 h1
+{
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  padding-bottom: 8px;
+}
+
+#section-1 h4
+{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  padding-bottom: 12px;
+}
+
+
+.row
+{
+  padding: 50px;
+}
+.img-container  {
+  position: relative;
+}
+
+.img-container:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.navbar-brand
+{
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 25px;
+}
+
+
+.img-1
+{
+  width: 70%;
+  margin-top: 60px;
+  border: 1px solid #00a2ff;
+  margin-bottom: 25px;
+}
+
+.img:hover
+{
+  opacity: 0.7;
+}
+
+.line-break
+{
+  width: 60%;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
