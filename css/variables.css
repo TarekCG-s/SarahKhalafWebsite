@@ -11,7 +11,7 @@
   height: auto;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 15px;
-  border: 2px solid #00a2ff;
+  border: 2px solid #780070;
   color: white;
 }
 
@@ -55,14 +55,14 @@
 }
 
 .navbar {
-  border: 2px solid #00a2ff;
+  border: 2px solid #780070;
   padding-bottom: 0px;
   margin-bottom: 0px;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
 .img-1 {
-  border: 2px solid #00a2ff;
+  border: 2px solid #780070;
 }
 
 .contact {
@@ -72,7 +72,7 @@
 }
 
 .box-1, .box-2, .box-3 {
-  background-color: #00a2ff;
+  background-color: #780070;
 }
 
 @media screen and (max-width: 800px) {
